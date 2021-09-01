@@ -19,6 +19,7 @@
 ## Endpoints
 
 ```
+https://serene-oasis-60864.herokuapp.com/api/v1/record
 ```
 
 ### POST api/v1/record
