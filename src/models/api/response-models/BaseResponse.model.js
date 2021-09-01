@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BaseResponseModel = void 0;
+const Status_enum_1 = require("../../../utils/Status.enum");
+class BaseResponseModel {
+    constructor() {
+        this.msg = Status_enum_1.StatusEnum[Status_enum_1.StatusEnum.SUCCESS];
+        this.code = Status_enum_1.StatusEnum.SUCCESS;
+    }
+}
+exports.BaseResponseModel = BaseResponseModel;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQmFzZVJlc3BvbnNlLm1vZGVsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiQmFzZVJlc3BvbnNlLm1vZGVsLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLDREQUFzRDtBQUV0RCxNQUFhLGlCQUFpQjtJQUsxQjtRQUNJLElBQUksQ0FBQyxHQUFHLEdBQUcsd0JBQVUsQ0FBQyx3QkFBVSxDQUFDLE9BQU8sQ0FBQyxDQUFDO1FBQzFDLElBQUksQ0FBQyxJQUFJLEdBQUcsd0JBQVUsQ0FBQyxPQUFPLENBQUM7SUFDbkMsQ0FBQztDQUNKO0FBVEQsOENBU0MiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1N0YXR1c0VudW19IGZyb20gXCIuLi8uLi8uLi91dGlscy9TdGF0dXMuZW51bVwiO1xuXG5leHBvcnQgY2xhc3MgQmFzZVJlc3BvbnNlTW9kZWwge1xuICAgIHB1YmxpYyBjb2RlOiBudW1iZXI7XG4gICAgcHVibGljIG1zZzogc3RyaW5nO1xuICAgIHB1YmxpYyBlcnJvcnM/OiBzdHJpbmdbXTtcblxuICAgIGNvbnN0cnVjdG9yKCkge1xuICAgICAgICB0aGlzLm1zZyA9IFN0YXR1c0VudW1bU3RhdHVzRW51bS5TVUNDRVNTXTtcbiAgICAgICAgdGhpcy5jb2RlID0gU3RhdHVzRW51bS5TVUNDRVNTO1xuICAgIH1cbn1cbiJdfQ==
