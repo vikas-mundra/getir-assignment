@@ -19,7 +19,6 @@
 ## Endpoints
 
 ```
-https://getir-avnigenc.herokuapp.com/api/v1/record
 ```
 
 ### POST api/v1/record
